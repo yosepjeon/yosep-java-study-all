@@ -35,7 +35,7 @@ public class Dish {
     }
 
     @Override
-    public String ToString() {
+    public String toString() {
         return name;
     }
 
