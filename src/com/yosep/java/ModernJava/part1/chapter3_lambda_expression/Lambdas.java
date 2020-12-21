@@ -1,4 +1,4 @@
-package com.yosep.java.ModernJava.part1.chapter3_람다표현식;
+package com.yosep.java.ModernJava.part1.chapter3_lambda_expression;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -42,6 +42,7 @@ public class Lambdas {
         return result;
     }
 
+    @FunctionalInterface
     interface ApplePredicate {
         boolean test(Apple a);
     }
